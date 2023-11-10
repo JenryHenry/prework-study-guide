@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -53,7 +54,49 @@
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
-          <li>Enter your Javascript notes here</li>
+          <li>Javascript is case sensitive.</li>
+          <li>Variables are containers that store values.</li>
+          <li>You start by declaring a variable with the 'let' keyword, followed by its assigned name: "let myVariable;"</li>
+          <li>A semicolon at the end of a line indicates where a statement ends.</li>
+          <li>Variable names are called 'Identifiers.'</li>
+          <li>A JS identifier usually starts with a letter, underscore, or dollar sign.</li>
+          <li>In a statement like 'let x = 42', the 'let x' part is called a declaration, and the '= 42' part is called an initializer.</li>
+          <li>The declaration allows the variable to be accessed later in code without throwing a 'ReferenceError'.</li>
+          <li>The initializer assigns a value to the variable.</li>
+          <li>Variables may hold values that have different data types:</li>
+          <li>STRINGS are defined using single or double quotation marks: let myVariable = 'Bob';</li>
+          <li>NUMBERS don't have quotes around them: let myVariable = 10;</li>
+          <li>BOOLEANS are True/False: let myVariable = true;</li>
+          <li>ARRAYS are structures that allow you to store multiple values in a single reference: let myVariable = [1, 'Bob', 'Steve', 10]</li>
+          <li>Refer to each member of the array like this: myVariable[1], myVariable['Bob']</li>
+          <li>OBJECTS can be anything. Everything in JS is an object and can be stored in a variable: let myVariable = document.querySelector('h1');</li>
+          <li>Comments are snippets of text that can be added along with code. The browser ignores text marked as comments. EX:
+            /*
+            Everything in between is a comment.
+            */
+          </li>
+          <li>If your comment contains no line breaks, you can put it behind two slashes: // This is a comment</li>
+          <li>An operator is a mathematical symbol that produces a result based on two values. </li>
+          <li>Addition: Adds two numbers together or combines two strings: 6 + 9; 'Hello' + 'World';</li>
+          <li>Subtraction, Multiplication, Division: -, *, / are their respective symbols. Basic Math.</li>
+          <li>Assignment assigns a value to a variable. let myVariable = 'Bob';</li>
+          <li>Strict equality performs a test to see if two values are equal and of the same data type. It returns a Boolean result:
+            If the value of myVariable is 3, let myVariable = 3, and you want to test if myVariable is equal to 3, you would type myVariable === 3 , and it would return a 'true' result.
+          </li>
+          <li>Not, Does-not-equal returns the logically opposite value of what it precedes. It turns a true into a false, etc. 
+            When used alongside the Equality operator, the negation operator tests whether two values are NOT equal. !, !== 
+            Assuming myVariable = 3, !(myVariable === 3); will return false.
+          </li>
+          <li>Conditionals are used to test if an expression returns true or not. A very common form is the 'if...else' statement:
+            let iceCream = "chocolate";
+            if (iceCream === "chocolate") {
+              alert("Yay, I love chocolate ice cream!");
+            } else {
+              alert("Awww, but chocolate is my favorite...");
+            }
+          </li>
+          <li>Functions are a way of packaging functionality that you wish to reuse. It's possible to define a body of code as a function that executes when you call the function name in your code. This helps save time by not repeatedly writing the same code. EX: let myVariable = document.querySelector("h1");</li>
+          <li></li>
         </ul>
 
       </section>
@@ -62,5 +105,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
